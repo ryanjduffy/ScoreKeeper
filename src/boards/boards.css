@@ -1,0 +1,45 @@
+/* Basic */
+
+.sk-scoreboard.basic .sb-labeled-display {
+	margin:0pt 20pt;
+} 
+
+.sk-scoreboard.basic .sk-clock {
+	margin-bottom:20pt;
+}
+
+/* Basketball */
+
+.sk-scoreboard.basketball-basic .period {
+	margin-top:20px;
+}
+
+/* Baseball */
+
+.sk-scoreboard.baseball-basic .sb-label {
+	padding:0.25em
+}
+
+.sk-scoreboard.baseball-basic .sk-display-carousel {
+	margin:10px;
+}
+
+.sk-scoreboard.baseball-basic .team-label, .sk-scoreboard.baseball .team-label {
+	height:2em;
+	line-height:2em;
+}
+
+.sk-scoreboard.baseball-basic .team-label.guest {
+	margin-bottom:10px;
+}
+
+.sk-scoreboard.baseball .spacer {
+	height:1em;
+}
+
+.extras-hflexrepeater, .extras-hflexrepeater > * {
+	display:-webkit-box;
+	-webkit-box-orientation:horizontal;
+	-webkit-box-pack:stretch;
+	-webkit-box-align:stretch;
+}

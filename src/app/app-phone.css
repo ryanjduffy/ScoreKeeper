@@ -1,0 +1,8 @@
+.sk-toolbar {
+	height:25px;
+}
+
+
+.content-pane, .content-pane .enyo-bg {
+	background:#cEf1d7 url(images/linebg.png) left top repeat;
+}

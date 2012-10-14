@@ -1,0 +1,210 @@
+.extras-grid {
+	position:relative
+}
+
+.extras-grid > * {
+	position:absolute;
+	/*-webkit-transition:all 250ms ease-out;*/
+}
+
+.board-icon {
+	background:rgba(255,255,255,0.5);/* url(images/convexbg.png); */
+	-webkit-background-size:auto 100%;
+	-webkit-border-radius:10px;
+	padding:5px;
+	text-align:center;
+}
+
+.wide .board-icon {
+	height:180px;
+	width:180px;
+}
+
+.narrow .board-icon {
+	height:160px;
+	width:160px;
+}
+
+.board-icon .wrapper {
+	background:center center no-repeat;
+	height:100%;
+	width:100%;
+	-webkit-background-size:90% auto;
+}
+
+.board-icon .wrapper .header {
+	color:#fff;
+	background:rgba(0,94,189,0.80);
+	border-bottom:2px solid white;
+	font-weight:bold;
+	font-size:smaller;
+	margin:-3px;
+	padding:3px;
+	-webkit-border-radius:10px 10px 0px 0px;
+}
+
+.board-icon .configure {
+	position:absolute;
+	bottom:4px;
+	left:4px;
+	background-color:rgba(90,90,108,0.5);
+}
+
+.board-icon .start {
+	position:absolute;
+	bottom:4px;
+	right:4px;
+}
+
+.content-pane, .content-pane .enyo-bg {
+	background:#8Ea197 url(images/linebg.png) left top repeat;
+}
+
+.menu-header {
+	background:rgba(0,94,189,0.80) url(images/convexbg.png);
+	color:#fff;
+}
+
+.menu-header.dark {
+	background-color:rgba(34,34,34,0.8);
+}
+
+.menu-header.enyo-held {
+	background-color:rgba(0,134,229,0.80);
+}
+
+.sk-scoreboard-grid .enyo-scrollfades-left, .sk-scoreboard-grid .enyo-scrollfades-right {
+	display:none;
+}
+
+.save-game {
+	background:rgba(220,220,220,0.80) url(images/convexbg.png);
+	padding:4px 14px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	position:relative;
+}
+
+.save-game.enyo-held {
+	font-weight:bold;
+}
+
+.save-game .title {
+	font-size:0.9em;
+}
+
+.save-game .time {
+	position:absolute;
+	display:inline-block;
+	font-size:0.7em;
+	right:5px;
+	bottom:5px;
+}
+
+.configure-toaster {
+	border-width:0px 25px 25px 25px;
+	-webkit-border-image:url(images/toaster.png) 25 25 25 25 stretch stretch;
+}
+
+.configure-toaster .toaster-content {
+	background:#8Ea197 url(images/linebg.png) left top repeat;
+	-webkit-border-radius:0px 0px 10px 10px;
+	margin-bottom: -6px;
+	padding: 2px;
+}
+
+.configure-toaster .toaster-content .enyo-item {
+	background-color:#fff;
+}
+
+
+.about-content {
+	font-size:12pt;
+	padding:10px;
+}
+
+.about-content H4 {
+	font-size:1.1em;
+}
+
+.about-content H3 {
+	font-size:1.2em;
+}
+
+.about-content A {
+	color:#8888ff;
+}
+
+.about-content .footer {
+	border-top:2px solid rgba(255,255,255,0.5);
+	text-align:center;
+	font-size:0.75em;
+}
+
+.about-content .footer IMG {
+	width:32px;
+	height:32px;
+}
+
+.help-toaster {
+	background:#8Ea197 url(images/linebg.png) left top repeat;
+	color:#eee;
+}
+
+.enyo-popup {
+	-webkit-border-image: url(images/popup.png) 24 24 24 24 stretch stretch;
+	color:#ddd;
+}
+
+.enyo-popup.enyo-popup-menu {
+	color:#333;
+}
+
+.enyo-popup .enyo-toolbar {
+	margin:-14px -14px 0px -14px;
+}
+
+.enyo-toaster .enyo-toolbar .title, .enyo-popup .enyo-toolbar .title {
+	text-align:center;
+	font-size:1.25em;
+	font-weight:bold;
+}
+
+.enyo-toaster .enyo-toolbar .title {
+	color:#eee;
+}
+
+.enyo-toolbar > .title-image {
+	margin:0 auto;
+	display:block;
+}
+
+.back-button {
+	position:absolute;
+	left:5px;
+	top:5px;
+}
+
+.help-button {
+	position:absolute;
+	right:5px;
+	top:5px;
+}
+
+.help-display {
+	position:relative;
+	background:url(images/display.png);
+	height:55px;
+	width:115px;
+	padding:5px;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+.help-display .gesture {
+	height:75px;
+	position:absolute;
+	left:45px;
+	top:15px;
+}

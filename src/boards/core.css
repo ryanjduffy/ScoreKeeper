@@ -1,0 +1,123 @@
+.sb-label {
+	color:#ffffff;
+	text-transform:uppercase;
+	text-align:center;
+	font-weight:bold;
+	padding:0.5em 0em;
+	height: 1.2em;
+	line-height: 1.2em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+.sb-label.inline {
+	line-height:100%;
+	padding:6px;
+}
+
+.sb-digit {
+	background-image:url(images/digits.png);
+}
+
+.sb-arrow {
+	background-image:url(images/arrows.png);
+}
+
+.sk-clock {
+	padding:5px;
+	border:4px solid white;
+	-webkit-border-radius:10px;
+	-webkit-background-clip: padding-box;
+	background-color:#222;
+	position:relative;
+}
+
+.sk-clock .controls {
+	position:absolute;
+	bottom:0px;
+	left:50%;
+	margin-left:-40px;
+	width:80px;
+	height:0px;
+	border:4px solid #fff;
+	border-top-width:0px;
+	-webkit-border-radius:0px 0px 5px 5px;
+	z-index:20;
+	opacity:0;
+	-webkit-transition:all 250ms ease-out;
+	overflow:hidden;
+	
+	background:#222 url(../app/images/convexbg.png) repeat-x;
+	-webkit-background-size:auto 100%;
+}
+
+.sk-clock .controls.showing {
+	opacity:1;
+	height:40px;
+	bottom:-40px;
+}
+
+.sk-clock .controls > * {
+	width:32px;
+	height:32px;
+	margin:2px;
+	background:url(images/clock.png) center center no-repeat;
+}
+
+.sk-clock .controls .clock-set {
+	background-position:0px 0px;
+}
+
+.sk-clock .controls .clock-start {
+	background-position:-32px 0px;
+}
+
+.sk-clock .controls .clock-pause {
+	background-position:-64px 0px;
+}
+
+.sk-scoreboard {
+	border-width:75px 100px 100px 75px;
+	-webkit-border-image:url('images/bg-blue.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard.bg-blue {
+	-webkit-border-image:url('images/bg-blue.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard.bg-orange {
+	-webkit-border-image:url('images/bg-orange.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard.bg-red {
+	-webkit-border-image:url('images/bg-red.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard.bg-black {
+	-webkit-border-image:url('images/bg-black.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard.bg-green {
+	-webkit-border-image:url('images/bg-green.png') 75 100 100 75 stretch stretch;
+}
+
+.sk-scoreboard > * {
+	margin:-20px;
+}
+
+.sk-display-carousel, .sk-display-wrapper {
+	-webkit-border-radius:6px;
+	background-color:#333;
+	-webkit-border-image:url(images/input-tool.png) 6 6 7 6;
+	border-width:6px 6px 7px 6px;
+	border-color:transparent;
+}
+
+.sk-clock-popup .enyo-picker-label, .sk-display-carousel-popup .enyo-picker-label { /* patching label for integerpicker */
+	-webkit-box-flex:1;
+}
+
+.sk-clock-popup .enyo-item {
+	padding:4px;
+}

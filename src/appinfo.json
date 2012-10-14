@@ -1,0 +1,11 @@
+{
+	"id": "com.tiqtech.scorekeeper",
+	"version":"1.1.0",
+	"vendor":"tiqTech.com",
+	"type":"web",
+	"main":"index.html",
+	"title":"Score Keeper",
+	"uiRevision":"2",
+	"icon":"icon.png",
+	"keywords":"score keeper book sport time" 
+}
